@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(76, 0, 255);
+    color: white;
+    font-family: sans-serif;
+}
+
+.main{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 10rem;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#sop{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border-color: orange;
+}
+
+#btn{
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
